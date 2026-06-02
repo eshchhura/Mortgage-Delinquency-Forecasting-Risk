@@ -1,0 +1,135 @@
+feature,semantic_type,missing_pct,n_unique,eda_recommendation,reason
+amortization_type,categorical,0.0,1,drop,No useful variation.
+channel,categorical,0.0,3,candidate,Usable for modeling after preprocessing and leakage review.
+current_loan_delinquency_status,categorical,0.0,68,candidate,Usable for modeling after preprocessing and leakage review.
+field_074,categorical,1.7312999999999998,2,exclude_until_mapped,Raw field without a confirmed business definition.
+field_079,categorical,0.0,3,exclude_until_mapped,Raw field without a confirmed business definition.
+field_081,categorical,0.0,2,exclude_until_mapped,Raw field without a confirmed business definition.
+field_086,categorical,0.0,3,exclude_until_mapped,Raw field without a confirmed business definition.
+field_087,categorical,0.0,2,exclude_until_mapped,Raw field without a confirmed business definition.
+field_102,categorical,0.0,5,exclude_until_mapped,Raw field without a confirmed business definition.
+field_103,categorical,0.0,1,exclude_until_mapped,Raw field without a confirmed business definition.
+field_105,categorical,98.2687,2,exclude_until_mapped,Raw field without a confirmed business definition.
+field_106,categorical,0.0,4,exclude_until_mapped,Raw field without a confirmed business definition.
+first_time_home_buyer_indicator,categorical,0.0,2,candidate,Usable for modeling after preprocessing and leakage review.
+interest_only_loan_indicator,categorical,0.0,1,drop,No useful variation.
+loan_payment_history,categorical,1.7312999999999998,32906,encode_carefully,High-cardinality categorical field. Avoid unrestricted one-hot encoding.
+loan_purpose,categorical,0.0,3,candidate,Usable for modeling after preprocessing and leakage review.
+modification_flag,categorical,1.7295,2,candidate,Usable for modeling after preprocessing and leakage review.
+msa,categorical,0.0,436,encode_carefully,High-cardinality categorical field. Avoid unrestricted one-hot encoding.
+occupancy_status,categorical,0.0,3,candidate,Usable for modeling after preprocessing and leakage review.
+prepayment_penalty_indicator,categorical,0.0,1,drop,No useful variation.
+property_state,categorical,0.0,54,candidate,Usable for modeling after preprocessing and leakage review.
+property_type,categorical,0.0,5,candidate,Usable for modeling after preprocessing and leakage review.
+seller_name,categorical,0.0,24,candidate,Usable for modeling after preprocessing and leakage review.
+servicer_name,categorical,1.7312999999999998,34,candidate,Usable for modeling after preprocessing and leakage review.
+source_file,categorical,0.0,1,drop,Identifier or row key. It should not be used as a predictive signal.
+zip_code_short,categorical,0.0,828,encode_carefully,High-cardinality categorical field. Avoid unrestricted one-hot encoding.
+disposition_date,date_or_time,99.9978,18,drop_or_audit_for_leakage,Potential post-event or future-outcome field.
+first_payment_date,date_or_time,0.0,12,engineer_or_use_for_splits,"Use for time features or validation splits, not as a raw predictor."
+foreclosure_date,date_or_time,99.9974,20,drop_or_audit_for_leakage,Potential post-event or future-outcome field.
+interest_only_first_principal_and_interest_payment_date,date_or_time,100.0,0,drop_or_keep_only_with_strong_reason,Mostly missing in the panel.
+last_paid_installment_date,date_or_time,99.9974,22,drop_or_keep_only_with_strong_reason,Mostly missing in the panel.
+maturity_date,date_or_time,1.7312999999999998,127,engineer_or_use_for_splits,"Use for time features or validation splits, not as a raw predictor."
+monthly_reporting_period,date_or_time,0.0,72,engineer_or_use_for_splits,"Use for time features or validation splits, not as a raw predictor."
+months_to_amortization,date_or_time,100.0,0,drop_or_keep_only_with_strong_reason,Mostly missing in the panel.
+origination_date,date_or_time,0.0,12,engineer_or_use_for_splits,"Use for time features or validation splits, not as a raw predictor."
+origination_quarter,date_or_time,0.0,5,engineer_or_use_for_splits,"Use for time features or validation splits, not as a raw predictor."
+origination_year,date_or_time,0.0,2,engineer_or_use_for_splits,"Use for time features or validation splits, not as a raw predictor."
+remaining_months_to_legal_maturity,date_or_time,1.7312999999999998,372,engineer_or_use_for_splits,"Use for time features or validation splits, not as a raw predictor."
+remaining_months_to_maturity,date_or_time,2.5827,360,engineer_or_use_for_splits,"Use for time features or validation splits, not as a raw predictor."
+reporting_month,date_or_time,0.0,12,engineer_or_use_for_splits,"Use for time features or validation splits, not as a raw predictor."
+reporting_quarter,date_or_time,0.0,24,engineer_or_use_for_splits,"Use for time features or validation splits, not as a raw predictor."
+reporting_year,date_or_time,0.0,6,engineer_or_use_for_splits,"Use for time features or validation splits, not as a raw predictor."
+repurchase_date,date_or_time,100.0,0,drop_or_audit_for_leakage,Potential post-event or future-outcome field.
+zero_balance_effective_date,date_or_time,98.2687,71,drop_or_audit_for_leakage,Potential post-event or future-outcome field.
+loan_identifier,identifier,0.0,26503,drop,Identifier or row key. It should not be used as a predictive signal.
+loan_month_key,identifier,0.0,1000000,drop,Identifier or row key. It should not be used as a predictive signal.
+reference_pool_id,identifier,100.0,0,drop,Identifier or row key. It should not be used as a predictive signal.
+count_30plus_dq_past_12m,low_cardinality_numeric,0.0,13,candidate,Usable for modeling after preprocessing and leakage review.
+count_60plus_dq_past_12m,low_cardinality_numeric,0.0,13,candidate,Usable for modeling after preprocessing and leakage review.
+dq_status_worsened,low_cardinality_numeric,0.0,2,candidate,Usable for modeling after preprocessing and leakage review.
+field_060,low_cardinality_numeric,99.9979,6,exclude_until_mapped,Raw field without a confirmed business definition.
+field_061,low_cardinality_numeric,99.9979,1,exclude_until_mapped,Raw field without a confirmed business definition.
+field_062,low_cardinality_numeric,99.9979,9,exclude_until_mapped,Raw field without a confirmed business definition.
+field_064,low_cardinality_numeric,94.6237,1,exclude_until_mapped,Raw field without a confirmed business definition.
+field_065,low_cardinality_numeric,100.0,0,exclude_until_mapped,Raw field without a confirmed business definition.
+field_066,low_cardinality_numeric,100.0,0,exclude_until_mapped,Raw field without a confirmed business definition.
+field_067,low_cardinality_numeric,100.0,0,exclude_until_mapped,Raw field without a confirmed business definition.
+field_068,low_cardinality_numeric,100.0,0,exclude_until_mapped,Raw field without a confirmed business definition.
+field_069,low_cardinality_numeric,100.0,0,exclude_until_mapped,Raw field without a confirmed business definition.
+field_070,low_cardinality_numeric,100.0,0,exclude_until_mapped,Raw field without a confirmed business definition.
+field_071,low_cardinality_numeric,100.0,0,exclude_until_mapped,Raw field without a confirmed business definition.
+field_072,low_cardinality_numeric,100.0,0,exclude_until_mapped,Raw field without a confirmed business definition.
+field_073,low_cardinality_numeric,63.5456,3,exclude_until_mapped,Raw field without a confirmed business definition.
+field_075,low_cardinality_numeric,100.0,0,exclude_until_mapped,Raw field without a confirmed business definition.
+field_076,low_cardinality_numeric,100.0,0,exclude_until_mapped,Raw field without a confirmed business definition.
+field_077,low_cardinality_numeric,100.0,0,exclude_until_mapped,Raw field without a confirmed business definition.
+field_078,low_cardinality_numeric,100.0,0,exclude_until_mapped,Raw field without a confirmed business definition.
+field_080,low_cardinality_numeric,94.6237,1,exclude_until_mapped,Raw field without a confirmed business definition.
+field_082,low_cardinality_numeric,100.0,0,exclude_until_mapped,Raw field without a confirmed business definition.
+field_083,low_cardinality_numeric,100.0,0,exclude_until_mapped,Raw field without a confirmed business definition.
+field_084,low_cardinality_numeric,100.0,0,exclude_until_mapped,Raw field without a confirmed business definition.
+field_085,low_cardinality_numeric,100.0,0,exclude_until_mapped,Raw field without a confirmed business definition.
+field_088,low_cardinality_numeric,100.0,0,exclude_until_mapped,Raw field without a confirmed business definition.
+field_089,low_cardinality_numeric,100.0,0,exclude_until_mapped,Raw field without a confirmed business definition.
+field_090,low_cardinality_numeric,100.0,0,exclude_until_mapped,Raw field without a confirmed business definition.
+field_091,low_cardinality_numeric,100.0,0,exclude_until_mapped,Raw field without a confirmed business definition.
+field_092,low_cardinality_numeric,100.0,0,exclude_until_mapped,Raw field without a confirmed business definition.
+field_093,low_cardinality_numeric,100.0,0,exclude_until_mapped,Raw field without a confirmed business definition.
+field_094,low_cardinality_numeric,100.0,0,exclude_until_mapped,Raw field without a confirmed business definition.
+field_095,low_cardinality_numeric,100.0,0,exclude_until_mapped,Raw field without a confirmed business definition.
+field_096,low_cardinality_numeric,100.0,0,exclude_until_mapped,Raw field without a confirmed business definition.
+field_097,low_cardinality_numeric,100.0,0,exclude_until_mapped,Raw field without a confirmed business definition.
+field_098,low_cardinality_numeric,100.0,0,exclude_until_mapped,Raw field without a confirmed business definition.
+field_099,low_cardinality_numeric,100.0,0,exclude_until_mapped,Raw field without a confirmed business definition.
+field_100,low_cardinality_numeric,100.0,0,exclude_until_mapped,Raw field without a confirmed business definition.
+field_101,low_cardinality_numeric,100.0,0,exclude_until_mapped,Raw field without a confirmed business definition.
+field_104,low_cardinality_numeric,100.0,0,exclude_until_mapped,Raw field without a confirmed business definition.
+field_107,low_cardinality_numeric,95.3651,4,exclude_until_mapped,Raw field without a confirmed business definition.
+field_109,low_cardinality_numeric,0.0,1,exclude_until_mapped,Raw field without a confirmed business definition.
+field_110,low_cardinality_numeric,100.0,0,exclude_until_mapped,Raw field without a confirmed business definition.
+field_112,low_cardinality_numeric,100.0,0,exclude_until_mapped,Raw field without a confirmed business definition.
+field_113,low_cardinality_numeric,100.0,0,exclude_until_mapped,Raw field without a confirmed business definition.
+is_30plus_dq,low_cardinality_numeric,0.0,2,candidate,Usable for modeling after preprocessing and leakage review.
+is_60plus_dq,low_cardinality_numeric,0.0,2,candidate,Usable for modeling after preprocessing and leakage review.
+is_90plus_dq,low_cardinality_numeric,0.0,2,candidate,Usable for modeling after preprocessing and leakage review.
+is_current,low_cardinality_numeric,0.0,2,candidate,Usable for modeling after preprocessing and leakage review.
+master_servicer,low_cardinality_numeric,100.0,0,drop_or_keep_only_with_strong_reason,Mostly missing in the panel.
+mortgage_insurance_cancellation_indicator,low_cardinality_numeric,100.0,0,drop_or_keep_only_with_strong_reason,Mostly missing in the panel.
+mortgage_insurance_percentage,low_cardinality_numeric,63.5456,8,candidate,Usable for modeling after preprocessing and leakage review.
+number_of_borrowers,low_cardinality_numeric,0.0,4,candidate,Usable for modeling after preprocessing and leakage review.
+number_of_units,low_cardinality_numeric,0.0,4,candidate,Usable for modeling after preprocessing and leakage review.
+scheduled_principal_current,low_cardinality_numeric,100.0,0,drop_or_keep_only_with_strong_reason,Mostly missing in the panel.
+unscheduled_principal_current,low_cardinality_numeric,100.0,0,drop_or_keep_only_with_strong_reason,Mostly missing in the panel.
+upb_at_issuance,low_cardinality_numeric,100.0,0,drop_or_keep_only_with_strong_reason,Mostly missing in the panel.
+borrower_credit_score_at_origination,numeric,0.0262,211,candidate,Usable for modeling after preprocessing and leakage review.
+co_borrower_credit_score_at_origination,numeric,56.668600000000005,211,candidate,Usable for modeling after preprocessing and leakage review.
+current_actual_upb,numeric,0.0,816349,candidate,Usable for modeling after preprocessing and leakage review.
+current_dq_num,numeric,9.999999999999999e-05,67,candidate,Usable for modeling after preprocessing and leakage review.
+current_interest_rate,numeric,1.7287000000000001,416,candidate,Usable for modeling after preprocessing and leakage review.
+dq_status_change,numeric,2.6504,54,candidate,Usable for modeling after preprocessing and leakage review.
+dti,numeric,0.0,47,candidate,Usable for modeling after preprocessing and leakage review.
+field_057,numeric,99.9979,19,exclude_until_mapped,Raw field without a confirmed business definition.
+field_058,numeric,99.9979,18,exclude_until_mapped,Raw field without a confirmed business definition.
+field_059,numeric,99.9979,21,exclude_until_mapped,Raw field without a confirmed business definition.
+field_063,numeric,99.1482,77,exclude_until_mapped,Raw field without a confirmed business definition.
+field_108,numeric,95.52040000000001,1536,exclude_until_mapped,Raw field without a confirmed business definition.
+field_111,numeric,99.0765,206,exclude_until_mapped,Raw field without a confirmed business definition.
+loan_age,numeric,1.7312999999999998,83,candidate,Usable for modeling after preprocessing and leakage review.
+max_dq_past_12m,numeric,1.7312999999999998,67,candidate,Usable for modeling after preprocessing and leakage review.
+original_cltv,numeric,0.0,75,candidate,Usable for modeling after preprocessing and leakage review.
+original_interest_rate,numeric,0.0,415,candidate,Usable for modeling after preprocessing and leakage review.
+original_loan_term,numeric,0.0,39,candidate,Usable for modeling after preprocessing and leakage review.
+original_ltv,numeric,0.0,68,candidate,Usable for modeling after preprocessing and leakage review.
+original_upb,numeric,0.0,725,candidate,Usable for modeling after preprocessing and leakage review.
+paydown_pct,numeric,0.0,816697,candidate,Usable for modeling after preprocessing and leakage review.
+prior_dq_num,numeric,2.6502999999999997,67,candidate,Usable for modeling after preprocessing and leakage review.
+total_principal_current,numeric,2.6502999999999997,155108,candidate,Usable for modeling after preprocessing and leakage review.
+upb_ratio,numeric,0.0,816697,candidate,Usable for modeling after preprocessing and leakage review.
+asset_recovery_costs,possible_leakage_or_post_event,99.9979,6,drop_or_audit_for_leakage,Potential post-event or future-outcome field.
+foreclosure_costs,possible_leakage_or_post_event,99.9979,21,drop_or_audit_for_leakage,Potential post-event or future-outcome field.
+property_preservation_and_repair_costs,possible_leakage_or_post_event,99.9979,20,drop_or_audit_for_leakage,Potential post-event or future-outcome field.
+upb_at_time_of_removal,possible_leakage_or_post_event,98.2687,16841,drop_or_audit_for_leakage,Potential post-event or future-outcome field.
+zero_balance_code,possible_leakage_or_post_event,98.2687,7,drop_or_audit_for_leakage,Potential post-event or future-outcome field.
+future_serious_dq_6m,target,4.2658000000000005,2,target,"Outcome variable, not a predictor."

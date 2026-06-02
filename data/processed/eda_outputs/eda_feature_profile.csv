@@ -1,0 +1,135 @@
+feature,semantic_type,dtype,missing_pct,n_unique,top_values
+amortization_type,categorical,object,0.0,1,{'FRM': 1000000}
+channel,categorical,object,0.0,3,"{'R': 548901, 'C': 339538, 'B': 111561}"
+current_loan_delinquency_status,categorical,object,0.0,68,"{'00': 969507, '01': 10190, '02': 4051, '03': 2710, '04': 2045}"
+field_074,categorical,object,1.7312999999999998,2,"{'N': 969395, 'None': 17313, 'Y': 13292}"
+field_079,categorical,object,0.0,3,"{'7': 910013, 'H': 81396, 'F': 8591}"
+field_081,categorical,object,0.0,2,"{'N': 996142, 'Y': 3858}"
+field_086,categorical,object,0.0,3,"{'A': 849430, 'W': 149930, 'P': 640}"
+field_087,categorical,object,0.0,2,"{'N': 972553, 'Y': 27447}"
+field_102,categorical,object,0.0,5,"{'7': 962371, 'F': 21148, 'N': 14278, 'T': 1853, 'R': 350}"
+field_103,categorical,object,0.0,1,{'N': 1000000}
+field_105,categorical,object,98.2687,2,"{'None': 982687, 'N': 17266, 'Y': 47}"
+field_106,categorical,object,0.0,4,"{'7': 955204, 'C': 43636, 'P': 1015, 'D': 145}"
+first_time_home_buyer_indicator,categorical,object,0.0,2,"{'N': 745588, 'Y': 254412}"
+interest_only_loan_indicator,categorical,object,0.0,1,{'N': 1000000}
+loan_payment_history,categorical,object,1.7312999999999998,32906,"{'000000000000000000000000000000000000000000000000': 455991, 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX00': 26496, 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX0000': 26289, 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX000000': 26101, 'XXXXXXXXXXX"
+loan_purpose,categorical,object,0.0,3,"{'P': 550368, 'R': 268149, 'C': 181483}"
+modification_flag,categorical,object,1.7295,2,"{'N': 974188, 'None': 17295, 'Y': 8517}"
+msa,categorical,string,0.0,436,"{'0': 92442, '35620': 46851, '31080': 29971, '16980': 27876, '19100': 26449}"
+occupancy_status,categorical,object,0.0,3,"{'P': 890073, 'I': 61965, 'S': 47962}"
+prepayment_penalty_indicator,categorical,object,0.0,1,{'N': 1000000}
+property_state,categorical,string,0.0,54,"{'CA': 110153, 'FL': 81634, 'TX': 80450, 'NY': 42538, 'NC': 34815}"
+property_type,categorical,object,0.0,5,"{'SF': 612527, 'PU': 269502, 'CO': 100613, 'MH': 11628, 'CP': 5730}"
+seller_name,categorical,object,0.0,24,"{'Other': 440680, 'Wells Fargo Bank, N.A.': 183898, 'Lakeview Loan Servicing, LLC': 44277, 'United Wholesale Mortgage, LLC': 39161, 'Rocket Mortgage, LLC': 38829}"
+servicer_name,categorical,object,1.7312999999999998,34,"{'Other': 344077, 'Wells Fargo Bank, N.A.': 154834, 'Lakeview Loan Servicing, LLC': 99701, 'JPMorgan Chase Bank, NA': 38508, 'Nationstar Mortgage LLC': 36905}"
+source_file,categorical,object,0.0,1,{'2020Q1.csv': 1000000}
+zip_code_short,categorical,string,0.0,828,"{'300': 10412, '891': 10190, '750': 10026, '840': 8792, '853': 8036}"
+disposition_date,date_or_time,datetime64[ns],99.9978,18,"{'NaT': 999978, '2025-09-01': 3, '2023-12-01': 2, '2024-06-01': 2, '2024-09-01': 1}"
+first_payment_date,date_or_time,datetime64[ns],0.0,12,"{'2020-02-01': 517648, '2020-01-01': 218965, '2020-03-01': 199527, '2019-12-01': 48198, '2019-11-01': 11673}"
+foreclosure_date,date_or_time,datetime64[ns],99.9974,20,"{'NaT': 999974, '2025-09-01': 3, '2025-12-01': 2, '2023-05-01': 2, '2024-06-01': 2}"
+interest_only_first_principal_and_interest_payment_date,date_or_time,float64,100.0,0,
+last_paid_installment_date,date_or_time,datetime64[ns],99.9974,22,"{'NaT': 999974, '2023-02-01': 3, '2022-08-01': 2, '2023-12-01': 2, '2023-11-01': 1}"
+maturity_date,date_or_time,datetime64[ns],1.7312999999999998,127,"{'2050-01-01': 488949, '2049-12-01': 209413, '2050-02-01': 192233, '2049-11-01': 46194, 'NaT': 17313}"
+monthly_reporting_period,date_or_time,datetime64[ns],0.0,72,"{'2020-01-01': 26503, '2020-02-01': 26503, '2020-03-01': 26472, '2020-04-01': 26408, '2020-05-01': 26248}"
+months_to_amortization,date_or_time,float64,100.0,0,
+origination_date,date_or_time,datetime64[ns],0.0,12,"{'2019-12-01': 521764, '2019-11-01': 221272, '2020-01-01': 193567, '2019-10-01': 48125, '2019-09-01': 11252}"
+origination_quarter,date_or_time,object,0.0,5,"{'2019Q4': 791161, '2020Q1': 193567, '2019Q3': 14096, '2019Q2': 990, '2019Q1': 186}"
+origination_year,date_or_time,int32,0.0,2,"{'2019': 806433, '2020': 193567}"
+remaining_months_to_legal_maturity,date_or_time,float64,1.7312999999999998,372,"{'357.0': 25417, '356.0': 25312, '358.0': 25233, '355.0': 24969, '354.0': 24290}"
+remaining_months_to_maturity,date_or_time,float64,2.5827,360,"{'358.0': 27305, '357.0': 27295, 'nan': 25827, '356.0': 24993, '359.0': 23778}"
+reporting_month,date_or_time,int32,0.0,12,"{'1': 90942, '2': 89607, '3': 88223, '4': 86683, '5': 85453}"
+reporting_quarter,date_or_time,object,0.0,24,"{'2020Q1': 79478, '2020Q2': 78705, '2020Q3': 74721, '2020Q4': 67124, '2021Q1': 59064}"
+reporting_year,date_or_time,int32,0.0,6,"{'2020': 300028, '2021': 196771, '2022': 139942, '2023': 128473, '2024': 120903}"
+repurchase_date,date_or_time,datetime64[ns],100.0,0,
+zero_balance_effective_date,date_or_time,datetime64[ns],98.2687,71,"{'NaT': 982687, '2021-03-01': 1081, '2020-12-01': 955, '2021-02-01': 953, '2020-10-01': 890}"
+loan_identifier,identifier,string,0.0,26503,"{'98860445': 72, '98857664': 72, '98843535': 72, '98843536': 72, '98849672': 72}"
+loan_month_key,identifier,object,0.0,1000000,"{'98836742_2020_01': 1, '98854416_2025_05': 1, '98854416_2025_07': 1, '98854416_2025_08': 1, '98854416_2025_09': 1}"
+reference_pool_id,identifier,float64,100.0,0,
+count_30plus_dq_past_12m,low_cardinality_numeric,int64,0.0,13,"{'0': 926041, '1': 22596, '2': 9575, '3': 7521, '4': 5581}"
+count_60plus_dq_past_12m,low_cardinality_numeric,int64,0.0,13,"{'0': 957028, '1': 7686, '2': 6207, '3': 4768, '4': 4516}"
+dq_status_worsened,low_cardinality_numeric,Int64,0.0,2,"{'0': 975809, '1': 24191}"
+field_060,low_cardinality_numeric,float64,99.9979,6,"{'nan': 999979, '0.0': 16, '18254.32': 1, '4881.04': 1, '463.85': 1}"
+field_061,low_cardinality_numeric,float64,99.9979,1,"{'nan': 999979, '0.0': 21}"
+field_062,low_cardinality_numeric,float64,99.9979,9,"{'nan': 999979, '0.0': 13, '22706.08': 1, '18575.33': 1, '20648.64': 1}"
+field_064,low_cardinality_numeric,float64,94.6237,1,"{'nan': 946237, '0.0': 53763}"
+field_065,low_cardinality_numeric,float64,100.0,0,
+field_066,low_cardinality_numeric,float64,100.0,0,
+field_067,low_cardinality_numeric,float64,100.0,0,
+field_068,low_cardinality_numeric,float64,100.0,0,
+field_069,low_cardinality_numeric,float64,100.0,0,
+field_070,low_cardinality_numeric,float64,100.0,0,
+field_071,low_cardinality_numeric,float64,100.0,0,
+field_072,low_cardinality_numeric,float64,100.0,0,
+field_073,low_cardinality_numeric,float64,63.5456,3,"{'nan': 635456, '1.0': 349142, '3.0': 8166, '2.0': 7236}"
+field_075,low_cardinality_numeric,float64,100.0,0,
+field_076,low_cardinality_numeric,float64,100.0,0,
+field_077,low_cardinality_numeric,float64,100.0,0,
+field_078,low_cardinality_numeric,float64,100.0,0,
+field_080,low_cardinality_numeric,float64,94.6237,1,"{'nan': 946237, '0.0': 53763}"
+field_082,low_cardinality_numeric,float64,100.0,0,
+field_083,low_cardinality_numeric,float64,100.0,0,
+field_084,low_cardinality_numeric,float64,100.0,0,
+field_085,low_cardinality_numeric,float64,100.0,0,
+field_088,low_cardinality_numeric,float64,100.0,0,
+field_089,low_cardinality_numeric,float64,100.0,0,
+field_090,low_cardinality_numeric,float64,100.0,0,
+field_091,low_cardinality_numeric,float64,100.0,0,
+field_092,low_cardinality_numeric,float64,100.0,0,
+field_093,low_cardinality_numeric,float64,100.0,0,
+field_094,low_cardinality_numeric,float64,100.0,0,
+field_095,low_cardinality_numeric,float64,100.0,0,
+field_096,low_cardinality_numeric,float64,100.0,0,
+field_097,low_cardinality_numeric,float64,100.0,0,
+field_098,low_cardinality_numeric,float64,100.0,0,
+field_099,low_cardinality_numeric,float64,100.0,0,
+field_100,low_cardinality_numeric,float64,100.0,0,
+field_101,low_cardinality_numeric,float64,100.0,0,
+field_104,low_cardinality_numeric,float64,100.0,0,
+field_107,low_cardinality_numeric,float64,95.3651,4,"{'nan': 953651, '1.0': 43337, '2.0': 2689, '3.0': 282, '4.0': 41}"
+field_109,low_cardinality_numeric,int64,0.0,1,{'7': 1000000}
+field_110,low_cardinality_numeric,float64,100.0,0,
+field_112,low_cardinality_numeric,float64,100.0,0,
+field_113,low_cardinality_numeric,float64,100.0,0,
+is_30plus_dq,low_cardinality_numeric,Int64,0.0,2,"{'0': 969508, '1': 30492}"
+is_60plus_dq,low_cardinality_numeric,Int64,0.0,2,"{'0': 979698, '1': 20302}"
+is_90plus_dq,low_cardinality_numeric,Int64,0.0,2,"{'0': 983749, '1': 16251}"
+is_current,low_cardinality_numeric,Int64,0.0,2,"{'1': 969507, '0': 30493}"
+master_servicer,low_cardinality_numeric,float64,100.0,0,
+mortgage_insurance_cancellation_indicator,low_cardinality_numeric,float64,100.0,0,
+mortgage_insurance_percentage,low_cardinality_numeric,float64,63.5456,8,"{'nan': 635456, '25.0': 150981, '30.0': 127320, '12.0': 51613, '35.0': 29432}"
+number_of_borrowers,low_cardinality_numeric,int64,0.0,4,"{'1': 565009, '2': 423470, '3': 10082, '4': 1439}"
+number_of_units,low_cardinality_numeric,int64,0.0,4,"{'1': 980429, '2': 14994, '4': 2683, '3': 1894}"
+scheduled_principal_current,low_cardinality_numeric,float64,100.0,0,
+unscheduled_principal_current,low_cardinality_numeric,float64,100.0,0,
+upb_at_issuance,low_cardinality_numeric,float64,100.0,0,
+borrower_credit_score_at_origination,numeric,float64,0.0262,211,"{'797.0': 12115, '796.0': 10297, '790.0': 10196, '787.0': 10061, '798.0': 9921}"
+co_borrower_credit_score_at_origination,numeric,float64,56.668600000000005,211,"{'nan': 566686, '791.0': 5833, '801.0': 5659, '786.0': 5527, '797.0': 5501}"
+current_actual_upb,numeric,float64,0.0,816349,"{'0.0': 17314, '480000.0': 197, '238000.0': 179, '240000.0': 172, '250000.0': 154}"
+current_dq_num,numeric,float64,9.999999999999999e-05,67,"{'0.0': 969507, '1.0': 10190, '2.0': 4051, '3.0': 2710, '4.0': 2045}"
+current_interest_rate,numeric,float64,1.7287000000000001,416,"{'3.875': 187218, '3.75': 175386, '3.625': 98442, '4.0': 66090, '4.125': 62785}"
+dq_status_change,numeric,float64,2.6504,54,"{'0.0': 942011, 'nan': 26504, '1.0': 24044, '-1.0': 4423, '-2.0': 730}"
+dti,numeric,int64,0.0,47,"{'44': 49731, '45': 47989, '43': 44769, '42': 44523, '40': 40539}"
+field_057,numeric,float64,99.9979,19,"{'nan': 999979, '0.0': 3, '1895.02': 1, '523.85': 1, '4910.98': 1}"
+field_058,numeric,float64,99.9979,18,"{'nan': 999979, '0.0': 4, '12369.02': 1, '18100.21': 1, '11846.67': 1}"
+field_059,numeric,float64,99.9979,21,"{'nan': 999979, '193185.16': 1, '328744.77': 1, '405673.28': 1, '128692.49': 1}"
+field_063,numeric,float64,99.1482,77,"{'nan': 991482, '0.0': 7188, '8046.77': 56, '410.56': 53, '27383.98': 53}"
+field_108,numeric,float64,95.52040000000001,1536,"{'nan': 955204, '4768.4': 115, '12273.24': 79, '9548.3': 78, '11577.9': 72}"
+field_111,numeric,float64,99.0765,206,"{'nan': 990765, '797.0': 103, '753.0': 98, '769.0': 97, '777.0': 92}"
+loan_age,numeric,float64,1.7312999999999998,83,"{'3.0': 26156, '4.0': 26053, '2.0': 25973, '5.0': 25699, '6.0': 25002}"
+max_dq_past_12m,numeric,float64,1.7312999999999998,67,"{'0.0': 908728, '1.0': 30987, 'nan': 17313, '2.0': 8977, '3.0': 6026}"
+original_cltv,numeric,int64,0.0,75,"{'80': 230199, '95': 119724, '75': 96161, '90': 73798, '97': 66229}"
+original_interest_rate,numeric,float64,0.0,415,"{'3.875': 190661, '3.75': 178811, '3.625': 100307, '4.0': 67658, '4.125': 64209}"
+original_loan_term,numeric,int64,0.0,39,"{'360': 976677, '300': 8514, '324': 5413, '180': 3596, '240': 1316}"
+original_ltv,numeric,int64,0.0,68,"{'80': 230959, '95': 119459, '75': 98278, '90': 70695, '97': 69904}"
+original_upb,numeric,float64,0.0,725,"{'484000.0': 10327, '200000.0': 8734, '240000.0': 7560, '300000.0': 6951, '160000.0': 6387}"
+paydown_pct,numeric,float64,0.0,816697,"{'1.0': 17314, '0.0': 7935, '0.010000000000000009': 344, '0.008333333333333304': 300, '0.008264462809917328': 230}"
+prior_dq_num,numeric,float64,2.6502999999999997,67,"{'0.0': 943237, 'nan': 26503, '1.0': 10091, '2.0': 4015, '3.0': 2686}"
+total_principal_current,numeric,float64,2.6502999999999997,155108,"{'0.0': 71741, 'nan': 26503, '1000.0': 175, '500.0': 97, '600.0': 77}"
+upb_ratio,numeric,float64,0.0,816697,"{'0.0': 17314, '1.0': 7935, '0.99': 344, '0.9916666666666667': 300, '0.9917355371900827': 230}"
+asset_recovery_costs,possible_leakage_or_post_event,float64,99.9979,6,"{'nan': 999979, '0.0': 15, '750.0': 2, '1500.0': 1, '1000.0': 1}"
+foreclosure_costs,possible_leakage_or_post_event,float64,99.9979,21,"{'nan': 999979, '2481.72': 1, '8516.68': 1, '4299.12': 1, '390.0': 1}"
+property_preservation_and_repair_costs,possible_leakage_or_post_event,float64,99.9979,20,"{'nan': 999979, '30.46': 2, '2543.76': 1, '41.36': 1, '10120.53': 1}"
+upb_at_time_of_removal,possible_leakage_or_post_event,float64,98.2687,16841,"{'nan': 982687, '481000.0': 11, '507000.0': 7, '397000.0': 7, '452000.0': 7}"
+zero_balance_code,possible_leakage_or_post_event,float64,98.2687,7,"{'nan': 982687, '1.0': 17208, '6.0': 47, '16.0': 32, '2.0': 8}"
+future_serious_dq_6m,target,float64,4.2658000000000005,2,"{'0.0': 944692, 'nan': 42658, '1.0': 12650}"

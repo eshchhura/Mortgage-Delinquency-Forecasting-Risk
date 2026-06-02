@@ -1,0 +1,43 @@
+feature,semantic_type,pearson_abs_r,spearman_abs_rho_sample,missing_pct,n_unique,association_score,association_type,cramers_v_sample,eda_recommendation,reason
+current_loan_delinquency_status,categorical,,,0.0,3,0.4624588379808999,categorical,0.4624588379808999,candidate,Usable for modeling after preprocessing and leakage review.
+current_dq_num,low_cardinality_numeric,0.4504246461165913,0.41907320621830524,0.0,3,0.4504246461165913,numeric,,candidate,Usable for modeling after preprocessing and leakage review.
+is_30plus_dq,low_cardinality_numeric,0.4091869602101603,0.4177655879933121,0.0,2,0.4177655879933121,numeric,,candidate,Usable for modeling after preprocessing and leakage review.
+is_current,low_cardinality_numeric,0.4091869602101603,0.4177655879933121,0.0,2,0.4177655879933121,numeric,,candidate,Usable for modeling after preprocessing and leakage review.
+dq_status_worsened,low_cardinality_numeric,0.40484606223490976,0.4129551341521033,0.0,2,0.4129551341521033,numeric,,candidate,Usable for modeling after preprocessing and leakage review.
+is_60plus_dq,low_cardinality_numeric,0.3814725192530364,0.3921226340752206,0.0,2,0.3921226340752206,numeric,,candidate,Usable for modeling after preprocessing and leakage review.
+loan_payment_history,categorical,,,0.0,26734,0.3836833615014583,categorical,0.3836833615014583,encode_carefully,High-cardinality categorical field. Avoid unrestricted one-hot encoding.
+dq_status_change,numeric,0.06305346596324177,0.3039375980624012,2.768394157991606,33,0.3039375980624012,numeric,,candidate,Usable for modeling after preprocessing and leakage review.
+prior_dq_num,numeric,0.10589890253441755,0.28662446283988674,2.768394157991606,31,0.28662446283988674,numeric,,candidate,Usable for modeling after preprocessing and leakage review.
+max_dq_past_12m,numeric,0.10471415690687383,0.23096696314606957,0.0,33,0.23096696314606957,numeric,,candidate,Usable for modeling after preprocessing and leakage review.
+count_30plus_dq_past_12m,low_cardinality_numeric,0.17602715404570726,0.2307406682200241,0.0,13,0.2307406682200241,numeric,,candidate,Usable for modeling after preprocessing and leakage review.
+count_60plus_dq_past_12m,low_cardinality_numeric,0.11331517883205594,0.2076997068465675,0.0,13,0.2076997068465675,numeric,,candidate,Usable for modeling after preprocessing and leakage review.
+paydown_pct,numeric,0.06329630903118676,0.11573576512854035,0.0,806326,0.11573576512854035,numeric,,candidate,Usable for modeling after preprocessing and leakage review.
+upb_ratio,numeric,0.06329630903118676,0.11573576512854035,0.0,806326,0.11573576512854035,numeric,,candidate,Usable for modeling after preprocessing and leakage review.
+remaining_months_to_maturity,date_or_time,0.0660260703682289,0.0992794847350919,0.8080706790258861,360,0.0992794847350919,numeric,,engineer_or_use_for_splits,"Use for time features or validation splits, not as a raw predictor."
+remaining_months_to_legal_maturity,date_or_time,0.07834862923291662,0.09316807321716035,0.0,370,0.09316807321716035,numeric,,engineer_or_use_for_splits,"Use for time features or validation splits, not as a raw predictor."
+zip_code_short,categorical,,,0.0,828,0.08762874949551143,categorical,0.08762874949551143,encode_carefully,High-cardinality categorical field. Avoid unrestricted one-hot encoding.
+loan_age,numeric,0.07495236484165967,0.08591650073008689,0.0,82,0.08591650073008689,numeric,,candidate,Usable for modeling after preprocessing and leakage review.
+total_principal_current,numeric,0.011273034900489054,0.08162249264554958,2.768394157991606,137145,0.08162249264554958,numeric,,candidate,Usable for modeling after preprocessing and leakage review.
+borrower_credit_score_at_origination,numeric,0.07583742455081775,0.07188194846580027,0.026740704993617748,211,0.07583742455081775,numeric,,candidate,Usable for modeling after preprocessing and leakage review.
+msa,categorical,,,0.0,399,0.06914167231632798,categorical,0.06914167231632798,encode_carefully,High-cardinality categorical field. Avoid unrestricted one-hot encoding.
+co_borrower_credit_score_at_origination,numeric,0.058326594541050866,0.05307766055307068,56.56578317884309,211,0.058326594541050866,numeric,,candidate,Usable for modeling after preprocessing and leakage review.
+servicer_name,categorical,,,0.0,34,0.0551200224503548,categorical,0.0551200224503548,candidate,Usable for modeling after preprocessing and leakage review.
+seller_name,categorical,,,0.0,24,0.04655589834630467,categorical,0.04655589834630467,candidate,Usable for modeling after preprocessing and leakage review.
+dti,numeric,0.044690257070975674,0.044989120937058445,0.0,47,0.044989120937058445,numeric,,candidate,Usable for modeling after preprocessing and leakage review.
+current_actual_upb,numeric,0.0429159122050426,0.03678742127598583,0.0,806235,0.0429159122050426,numeric,,candidate,Usable for modeling after preprocessing and leakage review.
+original_interest_rate,numeric,0.04231182852216103,0.040827813334370675,0.0,415,0.04231182852216103,numeric,,candidate,Usable for modeling after preprocessing and leakage review.
+modification_flag,categorical,,,0.0,2,0.04034519502787369,categorical,0.04034519502787369,candidate,Usable for modeling after preprocessing and leakage review.
+property_state,categorical,,,0.0,54,0.03935388978906026,categorical,0.03935388978906026,candidate,Usable for modeling after preprocessing and leakage review.
+current_interest_rate,numeric,0.03741995179981069,0.03602434096545326,0.0,416,0.03741995179981069,numeric,,candidate,Usable for modeling after preprocessing and leakage review.
+original_upb,numeric,0.031845598021553206,0.02671116999309832,0.0,725,0.031845598021553206,numeric,,candidate,Usable for modeling after preprocessing and leakage review.
+original_cltv,numeric,0.02348150183637578,0.022938897045954698,0.0,75,0.02348150183637578,numeric,,candidate,Usable for modeling after preprocessing and leakage review.
+original_ltv,numeric,0.02233244718485724,0.021546444176052178,0.0,68,0.02233244718485724,numeric,,candidate,Usable for modeling after preprocessing and leakage review.
+channel,categorical,,,0.0,3,0.020906127012202274,categorical,0.020906127012202274,candidate,Usable for modeling after preprocessing and leakage review.
+number_of_borrowers,low_cardinality_numeric,0.01564525211864072,0.020849281585341974,0.0,4,0.020849281585341974,numeric,,candidate,Usable for modeling after preprocessing and leakage review.
+occupancy_status,categorical,,,0.0,3,0.01139082074171493,categorical,0.01139082074171493,candidate,Usable for modeling after preprocessing and leakage review.
+first_time_home_buyer_indicator,categorical,,,0.0,2,0.010502963021108114,categorical,0.010502963021108114,candidate,Usable for modeling after preprocessing and leakage review.
+property_type,categorical,,,0.0,5,0.010352867798292018,categorical,0.010352867798292018,candidate,Usable for modeling after preprocessing and leakage review.
+original_loan_term,numeric,0.006877936344669112,0.0031488317648981972,0.0,39,0.006877936344669112,numeric,,candidate,Usable for modeling after preprocessing and leakage review.
+number_of_units,low_cardinality_numeric,0.0010455741020733563,0.0026203170050293763,0.0,4,0.0026203170050293763,numeric,,candidate,Usable for modeling after preprocessing and leakage review.
+loan_purpose,categorical,,,0.0,3,0.002504088515762091,categorical,0.002504088515762091,candidate,Usable for modeling after preprocessing and leakage review.
+mortgage_insurance_percentage,low_cardinality_numeric,0.0019210280632850417,0.0020041493430873894,63.68288448642178,8,0.0020041493430873894,numeric,,candidate,Usable for modeling after preprocessing and leakage review.

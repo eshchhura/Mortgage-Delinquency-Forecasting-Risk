@@ -1,0 +1,135 @@
+feature,eda_recommendation,reason
+reference_pool_id,drop,Identifier or row key. It should not be used as a predictive signal.
+loan_identifier,drop,Identifier or row key. It should not be used as a predictive signal.
+monthly_reporting_period,engineer_or_use_for_splits,"Use for time features or validation splits, not as a raw predictor."
+channel,candidate,Usable for modeling after preprocessing and leakage review.
+seller_name,candidate,Usable for modeling after preprocessing and leakage review.
+servicer_name,candidate,Usable for modeling after preprocessing and leakage review.
+master_servicer,drop_or_keep_only_with_strong_reason,Mostly missing in the panel.
+original_interest_rate,candidate,Usable for modeling after preprocessing and leakage review.
+current_interest_rate,candidate,Usable for modeling after preprocessing and leakage review.
+original_upb,candidate,Usable for modeling after preprocessing and leakage review.
+upb_at_issuance,drop_or_keep_only_with_strong_reason,Mostly missing in the panel.
+current_actual_upb,candidate,Usable for modeling after preprocessing and leakage review.
+original_loan_term,candidate,Usable for modeling after preprocessing and leakage review.
+origination_date,engineer_or_use_for_splits,"Use for time features or validation splits, not as a raw predictor."
+first_payment_date,engineer_or_use_for_splits,"Use for time features or validation splits, not as a raw predictor."
+loan_age,candidate,Usable for modeling after preprocessing and leakage review.
+remaining_months_to_legal_maturity,engineer_or_use_for_splits,"Use for time features or validation splits, not as a raw predictor."
+remaining_months_to_maturity,engineer_or_use_for_splits,"Use for time features or validation splits, not as a raw predictor."
+maturity_date,engineer_or_use_for_splits,"Use for time features or validation splits, not as a raw predictor."
+original_ltv,candidate,Usable for modeling after preprocessing and leakage review.
+original_cltv,candidate,Usable for modeling after preprocessing and leakage review.
+number_of_borrowers,candidate,Usable for modeling after preprocessing and leakage review.
+dti,candidate,Usable for modeling after preprocessing and leakage review.
+borrower_credit_score_at_origination,candidate,Usable for modeling after preprocessing and leakage review.
+co_borrower_credit_score_at_origination,candidate,Usable for modeling after preprocessing and leakage review.
+first_time_home_buyer_indicator,candidate,Usable for modeling after preprocessing and leakage review.
+loan_purpose,candidate,Usable for modeling after preprocessing and leakage review.
+property_type,candidate,Usable for modeling after preprocessing and leakage review.
+number_of_units,candidate,Usable for modeling after preprocessing and leakage review.
+occupancy_status,candidate,Usable for modeling after preprocessing and leakage review.
+property_state,candidate,Usable for modeling after preprocessing and leakage review.
+msa,encode_carefully,High-cardinality categorical field. Avoid unrestricted one-hot encoding.
+zip_code_short,encode_carefully,High-cardinality categorical field. Avoid unrestricted one-hot encoding.
+mortgage_insurance_percentage,candidate,Usable for modeling after preprocessing and leakage review.
+amortization_type,drop,No useful variation.
+prepayment_penalty_indicator,drop,No useful variation.
+interest_only_loan_indicator,drop,No useful variation.
+interest_only_first_principal_and_interest_payment_date,drop_or_keep_only_with_strong_reason,Mostly missing in the panel.
+months_to_amortization,drop_or_keep_only_with_strong_reason,Mostly missing in the panel.
+current_loan_delinquency_status,candidate,Usable for modeling after preprocessing and leakage review.
+loan_payment_history,encode_carefully,High-cardinality categorical field. Avoid unrestricted one-hot encoding.
+modification_flag,candidate,Usable for modeling after preprocessing and leakage review.
+mortgage_insurance_cancellation_indicator,drop_or_keep_only_with_strong_reason,Mostly missing in the panel.
+zero_balance_code,drop_or_audit_for_leakage,Potential post-event or future-outcome field.
+zero_balance_effective_date,drop_or_audit_for_leakage,Potential post-event or future-outcome field.
+upb_at_time_of_removal,drop_or_audit_for_leakage,Potential post-event or future-outcome field.
+repurchase_date,drop_or_audit_for_leakage,Potential post-event or future-outcome field.
+scheduled_principal_current,drop_or_keep_only_with_strong_reason,Mostly missing in the panel.
+total_principal_current,candidate,Usable for modeling after preprocessing and leakage review.
+unscheduled_principal_current,drop_or_keep_only_with_strong_reason,Mostly missing in the panel.
+last_paid_installment_date,drop_or_keep_only_with_strong_reason,Mostly missing in the panel.
+foreclosure_date,drop_or_audit_for_leakage,Potential post-event or future-outcome field.
+disposition_date,drop_or_audit_for_leakage,Potential post-event or future-outcome field.
+foreclosure_costs,drop_or_audit_for_leakage,Potential post-event or future-outcome field.
+property_preservation_and_repair_costs,drop_or_audit_for_leakage,Potential post-event or future-outcome field.
+asset_recovery_costs,drop_or_audit_for_leakage,Potential post-event or future-outcome field.
+field_057,exclude_until_mapped,Raw field without a confirmed business definition.
+field_058,exclude_until_mapped,Raw field without a confirmed business definition.
+field_059,exclude_until_mapped,Raw field without a confirmed business definition.
+field_060,exclude_until_mapped,Raw field without a confirmed business definition.
+field_061,exclude_until_mapped,Raw field without a confirmed business definition.
+field_062,exclude_until_mapped,Raw field without a confirmed business definition.
+field_063,exclude_until_mapped,Raw field without a confirmed business definition.
+field_064,exclude_until_mapped,Raw field without a confirmed business definition.
+field_065,exclude_until_mapped,Raw field without a confirmed business definition.
+field_066,exclude_until_mapped,Raw field without a confirmed business definition.
+field_067,exclude_until_mapped,Raw field without a confirmed business definition.
+field_068,exclude_until_mapped,Raw field without a confirmed business definition.
+field_069,exclude_until_mapped,Raw field without a confirmed business definition.
+field_070,exclude_until_mapped,Raw field without a confirmed business definition.
+field_071,exclude_until_mapped,Raw field without a confirmed business definition.
+field_072,exclude_until_mapped,Raw field without a confirmed business definition.
+field_073,exclude_until_mapped,Raw field without a confirmed business definition.
+field_074,exclude_until_mapped,Raw field without a confirmed business definition.
+field_075,exclude_until_mapped,Raw field without a confirmed business definition.
+field_076,exclude_until_mapped,Raw field without a confirmed business definition.
+field_077,exclude_until_mapped,Raw field without a confirmed business definition.
+field_078,exclude_until_mapped,Raw field without a confirmed business definition.
+field_079,exclude_until_mapped,Raw field without a confirmed business definition.
+field_080,exclude_until_mapped,Raw field without a confirmed business definition.
+field_081,exclude_until_mapped,Raw field without a confirmed business definition.
+field_082,exclude_until_mapped,Raw field without a confirmed business definition.
+field_083,exclude_until_mapped,Raw field without a confirmed business definition.
+field_084,exclude_until_mapped,Raw field without a confirmed business definition.
+field_085,exclude_until_mapped,Raw field without a confirmed business definition.
+field_086,exclude_until_mapped,Raw field without a confirmed business definition.
+field_087,exclude_until_mapped,Raw field without a confirmed business definition.
+field_088,exclude_until_mapped,Raw field without a confirmed business definition.
+field_089,exclude_until_mapped,Raw field without a confirmed business definition.
+field_090,exclude_until_mapped,Raw field without a confirmed business definition.
+field_091,exclude_until_mapped,Raw field without a confirmed business definition.
+field_092,exclude_until_mapped,Raw field without a confirmed business definition.
+field_093,exclude_until_mapped,Raw field without a confirmed business definition.
+field_094,exclude_until_mapped,Raw field without a confirmed business definition.
+field_095,exclude_until_mapped,Raw field without a confirmed business definition.
+field_096,exclude_until_mapped,Raw field without a confirmed business definition.
+field_097,exclude_until_mapped,Raw field without a confirmed business definition.
+field_098,exclude_until_mapped,Raw field without a confirmed business definition.
+field_099,exclude_until_mapped,Raw field without a confirmed business definition.
+field_100,exclude_until_mapped,Raw field without a confirmed business definition.
+field_101,exclude_until_mapped,Raw field without a confirmed business definition.
+field_102,exclude_until_mapped,Raw field without a confirmed business definition.
+field_103,exclude_until_mapped,Raw field without a confirmed business definition.
+field_104,exclude_until_mapped,Raw field without a confirmed business definition.
+field_105,exclude_until_mapped,Raw field without a confirmed business definition.
+field_106,exclude_until_mapped,Raw field without a confirmed business definition.
+field_107,exclude_until_mapped,Raw field without a confirmed business definition.
+field_108,exclude_until_mapped,Raw field without a confirmed business definition.
+field_109,exclude_until_mapped,Raw field without a confirmed business definition.
+field_110,exclude_until_mapped,Raw field without a confirmed business definition.
+field_111,exclude_until_mapped,Raw field without a confirmed business definition.
+field_112,exclude_until_mapped,Raw field without a confirmed business definition.
+field_113,exclude_until_mapped,Raw field without a confirmed business definition.
+source_file,drop,Identifier or row key. It should not be used as a predictive signal.
+current_dq_num,candidate,Usable for modeling after preprocessing and leakage review.
+reporting_year,engineer_or_use_for_splits,"Use for time features or validation splits, not as a raw predictor."
+reporting_month,engineer_or_use_for_splits,"Use for time features or validation splits, not as a raw predictor."
+reporting_quarter,engineer_or_use_for_splits,"Use for time features or validation splits, not as a raw predictor."
+origination_year,engineer_or_use_for_splits,"Use for time features or validation splits, not as a raw predictor."
+origination_quarter,engineer_or_use_for_splits,"Use for time features or validation splits, not as a raw predictor."
+loan_month_key,drop,Identifier or row key. It should not be used as a predictive signal.
+is_current,candidate,Usable for modeling after preprocessing and leakage review.
+is_30plus_dq,candidate,Usable for modeling after preprocessing and leakage review.
+is_60plus_dq,candidate,Usable for modeling after preprocessing and leakage review.
+is_90plus_dq,candidate,Usable for modeling after preprocessing and leakage review.
+prior_dq_num,candidate,Usable for modeling after preprocessing and leakage review.
+dq_status_change,candidate,Usable for modeling after preprocessing and leakage review.
+dq_status_worsened,candidate,Usable for modeling after preprocessing and leakage review.
+upb_ratio,candidate,Usable for modeling after preprocessing and leakage review.
+paydown_pct,candidate,Usable for modeling after preprocessing and leakage review.
+count_30plus_dq_past_12m,candidate,Usable for modeling after preprocessing and leakage review.
+count_60plus_dq_past_12m,candidate,Usable for modeling after preprocessing and leakage review.
+max_dq_past_12m,candidate,Usable for modeling after preprocessing and leakage review.
+future_serious_dq_6m,target,"Outcome variable, not a predictor."
