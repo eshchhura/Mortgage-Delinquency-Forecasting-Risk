@@ -1,0 +1,173 @@
+feature,importance
+borrower_credit_score_at_origination,948
+dti,669
+current_actual_upb,637
+original_upb,521
+original_interest_rate,387
+original_ltv,341
+upb_ratio,331
+co_borrower_credit_score_at_origination,328
+paydown_pct,297
+remaining_months_to_maturity,268
+original_cltv,247
+total_principal_current,239
+loan_age,224
+current_interest_rate,185
+count_30plus_dq_past_12m,183
+remaining_months_to_legal_maturity,181
+reporting_month,88
+current_dq_num,85
+number_of_borrowers,83
+mortgage_insurance_percentage,76
+max_dq_past_12m,71
+property_state_NY,67
+count_60plus_dq_past_12m,67
+loan_purpose_R,63
+servicer_name_Other,59
+seller_name_Other,54
+property_state_UT,52
+property_type_SF,51
+"seller_name_Wells Fargo Bank, N.A.",51
+loan_purpose_P,51
+"servicer_name_Wells Fargo Bank, N.A.",50
+property_state_TX,46
+prior_dq_num,45
+reporting_year,45
+channel_R,41
+reporting_quarter_2020Q2,41
+dq_status_change,40
+property_state_IL,40
+property_type_PU,39
+first_time_home_buyer_indicator_N,39
+number_of_units,38
+property_state_NJ,38
+loan_purpose_C,37
+property_state_AZ,36
+"servicer_name_Lakeview Loan Servicing, LLC",36
+reporting_quarter_2020Q1,34
+property_type_CO,33
+servicer_name_Freedom Mortgage Corp.,33
+origination_year,32
+property_state_FL,31
+property_state_VT,28
+servicer_name_Matrix Financial Services Corporation,28
+channel_B,26
+property_state_NV,25
+property_state_MT,25
+"seller_name_Quicken Loans, LLC",25
+property_state_VA,25
+original_loan_term,24
+channel_C,24
+property_state_WA,23
+property_state_CA,23
+property_state_NC,23
+"seller_name_Lakeview Loan Servicing, LLC",23
+"servicer_name_Quicken Loans, LLC",23
+property_state_PA,23
+property_state_CO,22
+property_state_OR,22
+property_state_DE,21
+property_state_MI,19
+property_state_NM,19
+occupancy_status_I,19
+"seller_name_Caliber Home Loans, Inc.",19
+"seller_name_Rocket Mortgage, LLC",19
+property_state_MN,18
+seller_name_Truist Bank (formerly SunTrust Bank),18
+occupancy_status_P,17
+origination_quarter_2019Q4,17
+"servicer_name_United Wholesale Mortgage, LLC",17
+"seller_name_United Wholesale Mortgage, LLC",17
+"seller_name_United Shore Financial Services, LLC dba United Wholesale Mortgage",16
+"servicer_name_Specialized Loan Servicing, LLC",16
+property_state_GA,16
+property_state_MO,16
+property_state_IN,16
+property_state_ID,15
+property_state_WY,15
+property_type_MH,15
+property_state_OH,15
+property_state_KY,14
+property_state_LA,14
+property_state_MD,14
+seller_name_NewRez LLC,14
+"seller_name_JPMorgan Chase Bank, National Association",14
+property_state_CT,14
+seller_name_Fairway Independent Mortgage Corporation,14
+"seller_name_loanDepot.com, LLC",14
+occupancy_status_S,14
+servicer_name_New Residential Mortgage LLC,14
+reporting_quarter_2021Q4,14
+property_state_SC,13
+seller_name_Home Point Financial Corporation,13
+servicer_name_U.S. Bank N.A.,12
+property_state_NH,12
+"servicer_name_Rocket Mortgage, LLC",12
+"servicer_name_NationStar Mortgage, LLC",12
+property_state_TN,11
+servicer_name_Home Point Financial Corporation,11
+is_60plus_dq,10
+property_state_MS,10
+seller_name_U.S. Bank N.A.,10
+property_state_MA,10
+reporting_quarter_2020Q4,10
+is_current,10
+"seller_name_Movement Mortgage, LLC",9
+reporting_quarter_2022Q1,9
+"servicer_name_JPMorgan Chase Bank, NA",9
+"servicer_name_Caliber Home Loans, Inc.",9
+property_state_IA,9
+"seller_name_NationStar Mortgage, LLC",9
+property_state_KS,8
+reporting_quarter_2021Q3,8
+property_state_PR,8
+property_state_AR,8
+reporting_quarter_2023Q2,7
+property_state_ND,7
+first_time_home_buyer_indicator_Y,7
+origination_quarter_2019Q3,7
+"seller_name_Flagstar Bank, FSB",7
+dq_status_worsened,6
+servicer_name_Truist Bank (formerly SunTrust Bank),6
+"servicer_name_AmeriHome Mortgage Company, LLC",6
+property_state_NE,6
+property_state_OK,6
+reporting_quarter_2020Q3,5
+servicer_name_Truist Bank,5
+reporting_quarter_2023Q3,5
+reporting_quarter_2022Q3,5
+reporting_quarter_2021Q2,5
+reporting_quarter_2021Q1,5
+origination_quarter_2020Q1,5
+"seller_name_AmeriHome Mortgage Company, LLC",5
+property_state_WI,4
+reporting_quarter_2024Q3,4
+reporting_quarter_2022Q4,4
+property_state_ME,4
+property_state_AL,3
+"servicer_name_United Shore Financial Services, LLC dba United Wholesale Mortgage",3
+seller_name_Truist Bank,3
+servicer_name_Nationstar Mortgage LLC,3
+reporting_quarter_2023Q1,3
+reporting_quarter_2024Q2,2
+reporting_quarter_2024Q1,2
+reporting_quarter_2023Q4,2
+reporting_quarter_2022Q2,2
+property_state_RI,2
+modification_flag_N,2
+property_state_DC,2
+property_state_SD,1
+is_30plus_dq,1
+modification_flag_Y,1
+property_state_WV,1
+amortization_type_FRM,0
+property_state_GU,0
+origination_quarter_2019Q2,0
+origination_quarter_2019Q1,0
+property_state_AK,0
+prepayment_penalty_indicator_N,0
+interest_only_loan_indicator_N,0
+property_state_HI,0
+is_90plus_dq,0
+property_state_VI,0
+property_type_CP,0

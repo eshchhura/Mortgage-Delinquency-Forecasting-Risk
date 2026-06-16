@@ -1,0 +1,3 @@
+file,delimiter,has_header,raw_column_count,selected_column_count,columns_skipped
+2021Q1.csv,|,False,113,49,64
+2021Q2.csv,|,False,113,49,64

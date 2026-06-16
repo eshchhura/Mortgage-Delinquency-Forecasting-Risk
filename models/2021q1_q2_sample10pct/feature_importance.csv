@@ -1,0 +1,173 @@
+feature,importance
+borrower_credit_score_at_origination,868
+dti,558
+original_upb,504
+current_actual_upb,459
+co_borrower_credit_score_at_origination,442
+original_interest_rate,427
+original_ltv,397
+original_cltv,393
+total_principal_current,346
+remaining_months_to_maturity,253
+upb_ratio,245
+paydown_pct,238
+remaining_months_to_legal_maturity,231
+loan_age,221
+number_of_borrowers,141
+count_30plus_dq_past_12m,123
+mortgage_insurance_percentage,103
+current_interest_rate,99
+current_dq_num,88
+reporting_month,87
+count_60plus_dq_past_12m,85
+servicer_name_Other,60
+channel_R,56
+seller_name_Other,55
+prior_dq_num,53
+channel_B,46
+property_state_LA,46
+property_state_FL,46
+origination_quarter_2021Q2,45
+loan_purpose_P,43
+property_type_SF,42
+property_state_IL,41
+seller_name_NewRez LLC,40
+"seller_name_Guaranteed Rate, Inc.",39
+occupancy_status_P,38
+property_state_CO,37
+loan_purpose_R,37
+property_state_UT,35
+property_type_PU,35
+property_state_NY,35
+origination_quarter_2021Q1,34
+"servicer_name_Rocket Mortgage, LLC",34
+property_type_MH,33
+property_state_OH,32
+property_state_NC,32
+property_state_PA,32
+property_type_CO,31
+max_dq_past_12m,31
+"servicer_name_Lakeview Loan Servicing, LLC",30
+servicer_name_MSR Asset Vehicle LLC,29
+property_state_MI,28
+property_state_OR,27
+property_state_TX,27
+origination_year,27
+property_state_WI,26
+first_time_home_buyer_indicator_N,26
+property_state_CA,25
+property_state_TN,25
+property_state_WV,25
+"servicer_name_NationStar Mortgage, LLC",25
+property_state_HI,25
+channel_C,25
+"seller_name_Caliber Home Loans, Inc.",25
+loan_purpose_C,24
+property_state_MO,24
+"seller_name_Movement Mortgage, LLC",24
+original_loan_term,24
+servicer_name_Nationstar Mortgage LLC,23
+occupancy_status_I,23
+reporting_year,22
+reporting_quarter_2021Q1,22
+"servicer_name_PNC Bank, N.A.",22
+reporting_quarter_2023Q3,21
+property_state_WA,21
+property_state_MA,21
+servicer_name_Matrix Financial Services Corporation,21
+"servicer_name_loanDepot.com, LLC",21
+servicer_name_Freedom Mortgage Corp.,21
+servicer_name_Onslow Bay Financial LLC,21
+dq_status_change,20
+occupancy_status_S,19
+origination_quarter_2020Q4,19
+property_state_VA,19
+"seller_name_Wells Fargo Bank, N.A.",19
+"servicer_name_United Wholesale Mortgage, LLC",19
+property_state_NH,18
+property_state_MD,18
+servicer_name_Truist Bank (formerly SunTrust Bank),18
+"seller_name_United Wholesale Mortgage, LLC",18
+reporting_quarter_2024Q3,18
+property_state_GA,17
+property_state_KS,17
+seller_name_Better Mortgage Corporation,17
+"seller_name_CrossCountry Mortgage, LLC",17
+number_of_units,17
+property_state_IN,16
+property_state_ID,16
+property_state_IA,16
+"seller_name_NationStar Mortgage, LLC",16
+property_state_CT,16
+property_state_RI,16
+"seller_name_Rocket Mortgage, LLC",15
+servicer_name_Truist Bank,15
+seller_name_Amerisave Mortgage Corporation,15
+seller_name_PennyMac Corp.,14
+"servicer_name_JPMorgan Chase Bank, NA",14
+is_current,14
+property_state_NJ,14
+seller_name_U.S. Bank N.A.,14
+seller_name_Home Point Financial Corporation,13
+reporting_quarter_2022Q3,13
+property_state_NV,13
+property_state_MN,13
+property_state_NM,12
+property_state_OK,12
+property_state_ME,12
+property_state_KY,12
+property_state_AZ,12
+"seller_name_AmeriHome Mortgage Company, LLC",12
+"seller_name_JPMorgan Chase Bank, National Association",11
+servicer_name_Home Point Financial Corporation,11
+property_state_AL,11
+property_state_SC,11
+property_state_AR,10
+property_state_MS,9
+servicer_name_U.S. Bank N.A.,9
+"servicer_name_Wells Fargo Bank, N.A.",9
+reporting_quarter_2022Q2,8
+is_30plus_dq,7
+reporting_quarter_2022Q4,7
+origination_quarter_2020Q3,7
+first_time_home_buyer_indicator_Y,7
+property_state_NE,7
+property_state_PR,7
+seller_name_Nationstar Mortgage LLC,7
+property_state_SD,6
+property_state_WY,6
+"seller_name_loanDepot.com, LLC",6
+reporting_quarter_2023Q2,6
+reporting_quarter_2023Q1,6
+reporting_quarter_2021Q2,6
+property_state_DE,6
+seller_name_Guild Mortgage Company LLC,6
+property_state_DC,5
+reporting_quarter_2022Q1,5
+is_60plus_dq,5
+reporting_quarter_2024Q2,4
+reporting_quarter_2024Q1,4
+reporting_quarter_2021Q4,4
+"servicer_name_CrossCountry Mortgage, LLC",3
+property_type_CP,3
+reporting_quarter_2023Q4,3
+property_state_ND,2
+property_state_AK,2
+property_state_MT,1
+reporting_quarter_2021Q3,1
+servicer_name_PennyMac Corp.,1
+origination_quarter_2019Q3,0
+dq_status_worsened,0
+interest_only_loan_indicator_N,0
+modification_flag_N,0
+origination_quarter_2020Q2,0
+origination_quarter_2020Q1,0
+origination_quarter_2019Q4,0
+origination_quarter_2019Q1,0
+property_state_VT,0
+origination_quarter_2018Q4,0
+modification_flag_Y,0
+property_state_GU,0
+prepayment_penalty_indicator_N,0
+property_state_VI,0
+amortization_type_FRM,0

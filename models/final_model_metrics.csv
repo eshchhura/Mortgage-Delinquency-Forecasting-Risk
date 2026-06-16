@@ -1,0 +1,2 @@
+final_model,threshold,accuracy,precision,recall,f1,roc_auc,pr_auc,true_positives,false_positives,false_negatives,true_negatives,flagged_loans,flag_rate
+Oversampled LightGBM,0.5,0.9855866000422268,0.23154787009700548,0.7083870967741935,0.34901462174189446,0.9582708910430027,0.3971202930050821,549,1822,226,139493,2371,0.016686607080019705

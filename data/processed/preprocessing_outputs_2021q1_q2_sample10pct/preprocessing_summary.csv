@@ -1,0 +1,15 @@
+item,value
+source_rows,13915701
+labeled_rows,12524939
+train_rows,10059227
+test_rows,2465712
+train_start_month,2021-01-01
+train_end_month,2024-07-01
+test_start_month,2024-08-01
+test_end_month,2025-06-01
+target,future_serious_dq_6m
+train_target_rate,0.002366682847499117
+test_target_rate,0.0029950780950897754
+numeric_features,32
+categorical_features,14
+processed_features,172

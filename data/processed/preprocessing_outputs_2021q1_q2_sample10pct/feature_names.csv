@@ -1,0 +1,173 @@
+feature_name
+original_interest_rate
+current_interest_rate
+original_upb
+current_actual_upb
+original_loan_term
+loan_age
+remaining_months_to_legal_maturity
+remaining_months_to_maturity
+original_ltv
+original_cltv
+number_of_borrowers
+dti
+borrower_credit_score_at_origination
+co_borrower_credit_score_at_origination
+number_of_units
+mortgage_insurance_percentage
+total_principal_current
+current_dq_num
+is_current
+is_30plus_dq
+is_60plus_dq
+prior_dq_num
+dq_status_change
+dq_status_worsened
+upb_ratio
+paydown_pct
+count_30plus_dq_past_12m
+count_60plus_dq_past_12m
+max_dq_past_12m
+reporting_year
+reporting_month
+origination_year
+channel_B
+channel_C
+channel_R
+"seller_name_AmeriHome Mortgage Company, LLC"
+seller_name_Amerisave Mortgage Corporation
+seller_name_Better Mortgage Corporation
+"seller_name_Caliber Home Loans, Inc."
+"seller_name_CrossCountry Mortgage, LLC"
+"seller_name_Guaranteed Rate, Inc."
+seller_name_Guild Mortgage Company LLC
+seller_name_Home Point Financial Corporation
+"seller_name_JPMorgan Chase Bank, National Association"
+"seller_name_Movement Mortgage, LLC"
+"seller_name_NationStar Mortgage, LLC"
+seller_name_Nationstar Mortgage LLC
+seller_name_NewRez LLC
+seller_name_Other
+seller_name_PennyMac Corp.
+"seller_name_Rocket Mortgage, LLC"
+seller_name_U.S. Bank N.A.
+"seller_name_United Wholesale Mortgage, LLC"
+"seller_name_Wells Fargo Bank, N.A."
+"seller_name_loanDepot.com, LLC"
+"servicer_name_CrossCountry Mortgage, LLC"
+servicer_name_Freedom Mortgage Corp.
+servicer_name_Home Point Financial Corporation
+"servicer_name_JPMorgan Chase Bank, NA"
+"servicer_name_Lakeview Loan Servicing, LLC"
+servicer_name_MSR Asset Vehicle LLC
+servicer_name_Matrix Financial Services Corporation
+"servicer_name_NationStar Mortgage, LLC"
+servicer_name_Nationstar Mortgage LLC
+servicer_name_Onslow Bay Financial LLC
+servicer_name_Other
+"servicer_name_PNC Bank, N.A."
+servicer_name_PennyMac Corp.
+"servicer_name_Rocket Mortgage, LLC"
+servicer_name_Truist Bank
+servicer_name_Truist Bank (formerly SunTrust Bank)
+servicer_name_U.S. Bank N.A.
+"servicer_name_United Wholesale Mortgage, LLC"
+"servicer_name_Wells Fargo Bank, N.A."
+"servicer_name_loanDepot.com, LLC"
+first_time_home_buyer_indicator_N
+first_time_home_buyer_indicator_Y
+loan_purpose_C
+loan_purpose_P
+loan_purpose_R
+property_type_CO
+property_type_CP
+property_type_MH
+property_type_PU
+property_type_SF
+occupancy_status_I
+occupancy_status_P
+occupancy_status_S
+property_state_AK
+property_state_AL
+property_state_AR
+property_state_AZ
+property_state_CA
+property_state_CO
+property_state_CT
+property_state_DC
+property_state_DE
+property_state_FL
+property_state_GA
+property_state_GU
+property_state_HI
+property_state_IA
+property_state_ID
+property_state_IL
+property_state_IN
+property_state_KS
+property_state_KY
+property_state_LA
+property_state_MA
+property_state_MD
+property_state_ME
+property_state_MI
+property_state_MN
+property_state_MO
+property_state_MS
+property_state_MT
+property_state_NC
+property_state_ND
+property_state_NE
+property_state_NH
+property_state_NJ
+property_state_NM
+property_state_NV
+property_state_NY
+property_state_OH
+property_state_OK
+property_state_OR
+property_state_PA
+property_state_PR
+property_state_RI
+property_state_SC
+property_state_SD
+property_state_TN
+property_state_TX
+property_state_UT
+property_state_VA
+property_state_VI
+property_state_VT
+property_state_WA
+property_state_WI
+property_state_WV
+property_state_WY
+amortization_type_FRM
+prepayment_penalty_indicator_N
+interest_only_loan_indicator_N
+modification_flag_N
+modification_flag_Y
+reporting_quarter_2021Q1
+reporting_quarter_2021Q2
+reporting_quarter_2021Q3
+reporting_quarter_2021Q4
+reporting_quarter_2022Q1
+reporting_quarter_2022Q2
+reporting_quarter_2022Q3
+reporting_quarter_2022Q4
+reporting_quarter_2023Q1
+reporting_quarter_2023Q2
+reporting_quarter_2023Q3
+reporting_quarter_2023Q4
+reporting_quarter_2024Q1
+reporting_quarter_2024Q2
+reporting_quarter_2024Q3
+origination_quarter_2018Q4
+origination_quarter_2019Q1
+origination_quarter_2019Q3
+origination_quarter_2019Q4
+origination_quarter_2020Q1
+origination_quarter_2020Q2
+origination_quarter_2020Q3
+origination_quarter_2020Q4
+origination_quarter_2021Q1
+origination_quarter_2021Q2
